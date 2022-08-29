@@ -10,15 +10,19 @@
       <link rel="stylesheet" href="https://use.typekit.net/drn8cyd.css">
 
       <style>
+        @page {
+          size: 21cm 29.7cm;
+          margin: 30mm 45mm 30mm 45mm;
+          /* change the margins as you want them to be. */
+      }
         body {
             margin: 0;
-            padding: 0;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
+            padding: 2rem;
         }
         article, aside, footer, header, nav, section {
   display: block;
 }
+
 
 .gOzbkZ {
     position: relative;
@@ -48,7 +52,7 @@
     top: 1095px;
     left: 5px;
     padding: 10px;
-    font-size: 10px;
+    font-size: 12px;
     height: 30px;
     background-color: rgb(34, 152, 233);
     transform: translate(-100%, -50%);
@@ -75,7 +79,7 @@
 
   .template__professional__column {
     display: table-cell;
-    width: 220px;
+    width: 25%;
     vertical-align: top;
   }
   .template__newyork__column .template__section__title {
@@ -91,7 +95,7 @@
     page-break-after: avoid;
   }
   .template__professional .template__section__title {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 16px;
   }
   .template__professional__column .template__section__subtitle {
@@ -146,29 +150,29 @@
   }
   .template__professional .template__name {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 17px;
   }
   .template__professional .template__name {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 17px;
     margin-bottom: 5px;
   }
   .template__professional .template__header__column {
-    min-width: calc(100% - 75px - 16px);
+    min-width: calc(100% - 25% - 16px);
     max-width: 100%;
     margin-right: 16px;
   }
   .template__occupation {
-    font-size: 11.5px;
+    font-size: 13.5px;
     margin-bottom: 5px;
   }
   .line-spacing--100.template__newyork .template__section__simple:not(.template__section__languages):not(.template__section__simple--fixed-line-spacing), .line-spacing--100.template__newyork .template__section__description:not(.template__section__languages):not(.template__section__simple--fixed-line-spacing) {
     line-height: 17px;
   }
   .font-size--medium.template__newyork .template__section__simple:not(.template__section__simple--fixed-font-size):not(.template__section__languages), .font-size--medium.template__newyork .template__section__description:not(.template__section__simple--fixed-font-size):not(.template__section__languages) {
-    font-size: 11.5px;
+    font-size: 13.5px;
   }
   .template__newyork__main .template__header .template__section__simple {
     padding-left: 0;
@@ -200,7 +204,7 @@
 
   .template__professional .template__section__left {
     position: relative;
-    width: 172px;
+    width: 25%;
     padding-right: 16px;
     padding-bottom: 16px;
   }
@@ -215,22 +219,22 @@
     font-family: 'Icons Templates';
     position: absolute;
     content: '.';
-    font-size: 8px;
+    font-size: 10px;
     line-height: 8px;
     color: #D0021B;
     top: -4px;
     right: -5.5px;
-    width: 8px;
+    width: px;
     height: 10px;
   }
   .template__professional .template__section__startDate, .template__professional .template__section__endDate, .template__professional .template__section__location {
-    font-size: 10.5px;
+    font-size: 13.5px;
   }
   .template__professional .template__section__startDate, .template__professional .template__section__endDate {
     font-style: italic;
   }
   .template__professional .template__section__startDate, .template__professional .template__section__endDate, .template__professional .template__section__location {
-    font-size: 10.5px;
+    font-size: 13.5px;
   }
   .template__section__experience .template__section__startDate, .template__section__experience .template__section__endDate, .template__section__education .template__section__startDate, .template__section__education .template__section__endDate {
     display: inline;
@@ -243,7 +247,7 @@
     content: " - ";
   }
   .template__professional .template__section__right {
-    width: calc(100% - 172px);
+    width: calc(100% - 25% - 16px);
     padding-bottom: 16px;
     padding-left: 16px;
     margin: -5.5px 0 5.5px;
@@ -253,7 +257,7 @@
     color: #3176E0;
   }
   .template__newyork .template__section__position, .template__newyork .template__section__degree {
-    font-size: 12px;
+    font-size: 14px;
     color: #D0021B;
   }
   .template__newyork .template__section__company, .template__newyork .template__section__college {
@@ -263,7 +267,7 @@
     line-height: 17px;
   }
   .font-size--medium.template__newyork .template__section__simple:not(.template__section__simple--fixed-font-size):not(.template__section__languages), .font-size--medium.template__newyork .template__section__description:not(.template__section__simple--fixed-font-size):not(.template__section__languages) {
-    font-size: 11.5px;
+    font-size: 13.5px;
   }
   
   .template__section__description {
@@ -277,9 +281,6 @@
     margin-bottom: 25px;
   }
 
-  element {
-
-}
 .template * {
     box-sizing: border-box;
 
@@ -297,7 +298,7 @@
 }
 .template__professional {
 
-    font-size: 11.5px;
+    font-size: 13.5px;
     line-height: 1.5em;
     border-spacing: 0;
     word-wrap: break-word;
@@ -360,11 +361,11 @@
       <div class="sc-15b5x2p-1 gOzbkZ">
          <div class="visible-preview">
             <div id="template-preview-full" class="template html readonly" data-qa="template-preview">
-               <div class="resume-container container A4">
+               <div class="resume-container container A4" style="width: 100%;">
                   <table class="template__newyork template__professional dataqa-document-properties color--blue font-size--medium font-family--professional font-language--pt-BR line-spacing--100 numPages-2 A4 sc-jojyft-0 jbCKSz">
                      <tbody>
                         <tr>
-                           <td class="template__professional__column template__newyork__column" width="220">
+                           <td class="template__professional__column template__newyork__column" width="25%">
                               <section data-section="contact-information" data-section-id="b27ba813-72d3-4b67-b0c7-5159e7c805b0" data-subsection-position="0" id="contact-information" class="padding-1rem">
                                  <p class="template__section__title template__section__title--right">Informação de contato</p>
                                  <div class="template__header__info__container">
@@ -382,7 +383,7 @@
                                     </div>
                                     <div class="template__header__info template__header__info--birthday">
                                        <p class="template__section__subtitle">Data de nascimento</p>
-                                       <p class="template__section__info__value">22 Dez, 1999</p>
+                                       <p class="template__section__info__value">22 Dez, 1999 - 22 Anos</p>
                                     </div>
                                     <div class="template__header__info template__header__info--nationality">
                                        <p class="template__section__subtitle">Nacionalidade</p>
@@ -442,7 +443,7 @@
                                  </div>
                               </section>
                            </td>
-                           <td width="16"></td>
+                           <td width="16px"></td>
                            <td class="template__newyork__main template__professional__main">
                               <div class="template__header template__header--twoColumns">
                                  <div class="template__header__column">
